@@ -12,6 +12,13 @@
 #' @importFrom whisker whisker.render
 #' @importFrom jsonlite fromJSON
 #' @export
+#' @examples \dontrun{
+#' # get list of english tables
+#' get_table_list(Language='en')
+#' 
+#' #get list of dutch tables
+#' get_table_list(Language='nl')
+#' }
 get_table_list <- function(..., select=NULL){
   url <- whisker.render("{{BASEURL}}/{{CATALOG}}/Tables?$format=json"
                        , list( BASEURL = BASEURL

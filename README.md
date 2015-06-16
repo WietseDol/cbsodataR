@@ -9,10 +9,11 @@ __Note: This is a spare time project and not an official Statistics Netherlands 
 
 # Installation
 
-`cbsodata` is not available from CRAN but can installed using `devtools`.
+`nlstat` is not available from CRAN but can installed using `devtools`.
 
 ```S
-devtools::install_github("edwindj/cbsodataR")
+devtools::install_github("edwindj/nlstat")
+library('nlstat')
 ```
 
 # Usage

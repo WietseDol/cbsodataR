@@ -1,4 +1,7 @@
+#' nlstat: Statistics Netherlands (CBS) OpenData API Client
+#'
 #'@docType package
+#'@name nlstat
 NULL
 
 BASEURL = "http://opendata.cbs.nl"

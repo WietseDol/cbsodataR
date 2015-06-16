@@ -16,4 +16,9 @@ download_table(id, dir = id, ...)
 \description{
 Download a table from statistics Netherlands
 }
+\examples{
+\dontrun{
+download_table('71509ENG')
+}
+}
 

@@ -20,4 +20,13 @@ columns that should be returned.
 \note{
 \code{get_table_list} will cache results, so subsequent calls will be much faster.
 }
+\examples{
+\dontrun{
+# get list of english tables
+get_table_list(Language='en')
+
+#get list of dutch tables
+get_table_list(Language='nl')
+}
+}
 

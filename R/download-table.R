@@ -4,7 +4,10 @@
 #' @param dir Directory where table should be downloaded
 #' @param ... Parameters passed on to \code{\link{download_data}}
 #' @export
-#'
+#' @examples 
+#' \dontrun{
+#' download_table('71509ENG')
+#' }
 download_table <- function(id, dir=id, ...){
   #TODO add untyped vs typed download
   meta <- download_meta(id=id, dir=dir)

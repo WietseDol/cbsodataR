@@ -13,6 +13,13 @@
 #' @param dir Directory where the table should be downloaded. Defaults to temporary
 #' directory
 #' @export
+#' @examples \dontrun{
+#' # retrieve data (categories have readable names)
+#' get_data('71509ENG')
+#' 
+#' # retrieve original data
+#' get_data('71509ENG', recode=FALSE)
+#' }
 get_data <- function(id, ..., recode=TRUE, dir=tempdir()){
   meta <- download_table(id, ..., dir=dir)
   data <- read.csv(file.path(dir, "data.csv")) 

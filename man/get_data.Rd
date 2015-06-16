@@ -25,4 +25,13 @@ Optionaly the data can be filtered on category values.
 \note{
 All data are downloaded using \code{\link{download_table}}
 }
+\examples{
+\dontrun{
+# retrieve data (categories have readable names)
+get_data('71509ENG')
+
+# retrieve original data
+get_data('71509ENG', recode=FALSE)
+}
+}
 
